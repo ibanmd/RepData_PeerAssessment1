@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 # Reproducible Research: Peer Assessment 1
 
 Hello!  Welcome to my Assessment 1.  I hope you find my work easy enough to follow and I will do my best to guide you through and explain everything.
