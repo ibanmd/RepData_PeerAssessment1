@@ -10,8 +10,8 @@ In this analysis, I will be using 3 packages, "data.table", "ggplot2", and "time
 library(data.table)
 library(ggplot2)
 library(timeDate)
-
-data <- read.csv(file = "/Users/Mario/RepData_PeerAssessment1/activity.csv")
+setwd("/Users/Mario/Desktop/Coursera/JHUReproducibleResearch/RepData_PeerAssessment1")
+data <- read.csv(file = "activity.csv")
 data <- data.table(data)  ## Convert to a data table in order to make some things easier later.
 data_removed_NA <- subset(data, steps != "NA")  ## Create a new data table without NA values.
 ```
